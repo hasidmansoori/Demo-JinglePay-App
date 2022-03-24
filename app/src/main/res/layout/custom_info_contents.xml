@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="4dp"
+    android:minWidth="250dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/userProfileImage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/twitter_user_background"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userDisplayName"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:text="\@anish_adm"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/tweetGist"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:maxLines="2"
+        android:text="lorem ipsum"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tap_to_view_tweet"/>
+</LinearLayout>

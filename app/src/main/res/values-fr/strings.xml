@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tweets autour de vous</string>
+    <string name="twitter_api_key" translatable="false">PSlhBxYSB0ujflI55LAjsfVk0</string>
+    <string name="twitter_api_secret" translatable="false">UzpzcmrNwtskAJhQDNn9v014JQYg3ZRBsuUSt98ZJTJpnbzodf</string>
+    <string name="twitter_access_token" translatable="false">310418176-Fk6sUFZraGTgPHkBN3JEzfjXFbECYirnjiy9f1TW</string>
+    <string name="twitter_access_token_secret" translatable="false">VqRPazarUsxR8GxLlNiIylqAx3IpRSQH1xq8I3UUT1RgN</string>
+    <string name="message_need_location_permission">App besoin d\'accéder à votre emplacement pour afficher les Tweets autour de vous!</string>
+    <string name="tap_to_view_tweet">Appuyez sur pour afficher le Tweet</string>
+    <string name="search_title">Chercher</string>
+    <string name="login_to_favourite">"Connexion au favori "</string>
+    <string name="logout">Connectez - Out</string>
+    <string name="tweet">Tweet</string>
+    <string name="radius">Rayon</string>
+    <string name="change">Changement</string>
+    <string name="radius_in_km">Rayon en KM</string>
+</resources>
