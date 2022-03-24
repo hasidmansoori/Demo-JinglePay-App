@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tweets around you</string>
+    <string name="app_name">Demo JinglePay App</string>
     <string name="twitter_api_key" translatable="false">pazapt12mSWxYyDjErP2pYhnl</string>
     <string name="twitter_api_secret" translatable="false">7ZJyQwZa04JJmyMDTEN4zD8etn8wGgmsVYeGz16X5Kf82FivSr</string>
     <string name="twitter_access_token" translatable="false">135029058-f96WWGp4mfcHEC4C3JYE5O566LA5dr4duB5Joyf5</string>

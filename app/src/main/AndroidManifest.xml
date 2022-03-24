@@ -21,12 +21,14 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBuSV0LWeb0eDw1CrOjRzI5djaL0dn7Lls" />
         <activity android:name=".TweetDetailsActivity"
-            android:label="@string/tweet" >
+            android:label="@string/tweet"
+            android:exported="true">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
